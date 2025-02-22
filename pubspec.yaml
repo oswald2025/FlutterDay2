@@ -1,0 +1,39 @@
+name: dclicpay
+
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  circle_nav_bar: ^2.2.0
+  water_drop_nav_bar: ^2.2.2
+  flutter_advanced_avatar: ^1.5.2
+  appbar_animated: ^0.0.3
+  flutter_credit_card: ^4.0.1
+  u_credit_card: ^1.4.0
+  fl_chart: ^0.70.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  async: ^2.12.0      
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/pngegg.png
+    - assets/person1.png
+    - assets/person2.png
+    - assets/person3.png
